@@ -1,0 +1,19 @@
+@PACKAGE_INIT@
+
+set(Parallel_DIR @PACKAGE_SOME_INSTALL_DIR@)
+set(Parallel_COMPONENTS @Parallel_COMPONENTS@)
+
+include(${CMAKE_CURRENT_LIST_DIR}/ParallelTargets.cmake)
+
+foreach (component ${Parallel_FIND_COMPONENTS})
+    if (${component} IN_LIST Parallel_COMPONENTS)
+        include(${CMAKE_CURRENT_LIST_DIR}/Parallel${component}Targets.cmake)
+    else()
+        if (Parallel_FIND_REQUIRED_${component})
+            set(mode FATAL_ERROR)
+        else()
+            set(mode WARNING)
+        endif()
+        message(${mode} "Parallel${component} not found")
+    endif()
+endforeach()
