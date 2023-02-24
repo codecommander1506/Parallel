@@ -53,3 +53,5 @@ jobs:
         domain: commander.com
         # Build directory to deploy
         build_dir: ${{github.workspace}}/build/doc/Parallel/html
+        # Token
+        github_token: ${{ secrets.GITHUB_TOKEN }}
