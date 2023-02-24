@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+  <namespace>com.commander.parallel</namespace>
+  <virtualFolder>doc</virtualFolder>
+  <filterSection>
+    <filterAttribute>doxygen</filterAttribute>
+    <toc>
+      <section title="Parallel 1.0.0" ref="index.html">
+        <section title="Classes" ref="annotated.html">
+          <section title="Class List" ref="annotated.html">
+            <section title="Parallel">
+              <section title="Job" ref="class_parallel_1_1_job.html">
+                <section title="Job" ref="class_parallel_1_1_job.html#aaca0e187fadd8bd9dfe6202e09b0d6a1" />
+                <section title="~Job" ref="class_parallel_1_1_job.html#a56445f68da7175dbc3dd9145c757a8b6" />
+                <section title="canLoop" ref="class_parallel_1_1_job.html#a37025277797b5f216fb6e8f9f35b60e3" />
+                <section title="loop" ref="class_parallel_1_1_job.html#a60cfdd923fcf0d76e945cb83e3605244" />
+                <section title="loopCount" ref="class_parallel_1_1_job.html#ab1ebf42319862e970729db777c0b7071" />
+                <section title="run" ref="class_parallel_1_1_job.html#a4840c00df837708bdb98b438e88947fe" />
+              </section>
+              <section title="Thread" ref="class_parallel_1_1_thread.html">
+                <section title="Thread" ref="class_parallel_1_1_thread.html#a8d52123f785e222b4093001a0e043a70" />
+                <section title="~Thread" ref="class_parallel_1_1_thread.html#a5199d8e35792e47f3703562662e44440" />
+                <section title="runJob" ref="class_parallel_1_1_thread.html#a4875a6f1628c8cd5da25a7b3e7884c73" />
+                <section title="sleepTime" ref="class_parallel_1_1_thread.html#aa509986337d38c0b4c0810b1ac7ac053" />
+              </section>
+            </section>
+          </section>
+          <section title="Class Index" ref="classes.html" />
+          <section title="Class Hierarchy" ref="hierarchy.html">
+            <section title="Parallel::Job" ref="class_parallel_1_1_job.html" />
+            <section title="Parallel::Thread" ref="class_parallel_1_1_thread.html" />
+          </section>
+          <section title="Class Members" ref="functions.html">
+            <section title="All" ref="functions.html" />
+            <section title="Functions" ref="functions_func.html" />
+          </section>
+        </section>
+      </section>
+    </toc>
+    <keywords>
+      <keyword name="Parallel::Job" id="Parallel::Job" ref="class_parallel_1_1_job.html" />
+      <keyword name="Job" id="Parallel::Job::Job" ref="class_parallel_1_1_job.html#aaca0e187fadd8bd9dfe6202e09b0d6a1" />
+      <keyword name="~Job" id="Parallel::Job::~Job" ref="class_parallel_1_1_job.html#a56445f68da7175dbc3dd9145c757a8b6" />
+      <keyword name="canLoop" id="Parallel::Job::canLoop" ref="class_parallel_1_1_job.html#a37025277797b5f216fb6e8f9f35b60e3" />
+      <keyword name="loop" id="Parallel::Job::loop" ref="class_parallel_1_1_job.html#a60cfdd923fcf0d76e945cb83e3605244" />
+      <keyword name="loopCount" id="Parallel::Job::loopCount" ref="class_parallel_1_1_job.html#ab1ebf42319862e970729db777c0b7071" />
+      <keyword name="run" id="Parallel::Job::run" ref="class_parallel_1_1_job.html#a4840c00df837708bdb98b438e88947fe" />
+      <keyword name="Parallel::Thread" id="Parallel::Thread" ref="class_parallel_1_1_thread.html" />
+      <keyword name="Thread" id="Parallel::Thread::Thread" ref="class_parallel_1_1_thread.html#a8d52123f785e222b4093001a0e043a70" />
+      <keyword name="~Thread" id="Parallel::Thread::~Thread" ref="class_parallel_1_1_thread.html#a5199d8e35792e47f3703562662e44440" />
+      <keyword name="sleepTime" id="Parallel::Thread::sleepTime" ref="class_parallel_1_1_thread.html#aa509986337d38c0b4c0810b1ac7ac053" />
+      <keyword name="runJob" id="Parallel::Thread::runJob" ref="class_parallel_1_1_thread.html#a4875a6f1628c8cd5da25a7b3e7884c73" />
+    </keywords>
+    <files>
+      <file>tabs.css</file>
+      <file>tab_a.png</file>
+      <file>tab_b.png</file>
+      <file>tab_h.png</file>
+      <file>tab_s.png</file>
+      <file>nav_h.png</file>
+      <file>nav_f.png</file>
+      <file>bc_s.png</file>
+      <file>closed.png</file>
+      <file>open.png</file>
+      <file>bdwn.png</file>
+      <file>sync_on.png</file>
+      <file>sync_off.png</file>
+      <file>doxygen.css</file>
+      <file>jquery.js</file>
+      <file>dynsections.js</file>
+      <file>search/search_l.png</file>
+      <file>search/search_m.png</file>
+      <file>search/search_r.png</file>
+      <file>search/close.svg</file>
+      <file>search/mag_sel.svg</file>
+      <file>search/search.css</file>
+      <file>search/search.js</file>
+      <file>config_8h_source.html</file>
+      <file>debug_8h_source.html</file>
+      <file>global_8h_source.html</file>
+      <file>job_8h_source.html</file>
+      <file>job__p_8h_source.html</file>
+      <file>thread_8h_source.html</file>
+      <file>thread__p_8h_source.html</file>
+      <file>class_parallel_1_1_job.html</file>
+      <file>class_parallel_1_1_job-members.html</file>
+      <file>class_parallel_1_1_thread.html</file>
+      <file>class_parallel_1_1_thread-members.html</file>
+      <file>dir_cbd7f246bdf7dc0a50281a272327e6ed.html</file>
+      <file>dir_68267d1309a1af8e8297ef4c3efbcdba.html</file>
+      <file>index.html</file>
+      <file>annotated.html</file>
+      <file>classes.html</file>
+      <file>hierarchy.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+    </files>
+  </filterSection>
+</QtHelpProject>
