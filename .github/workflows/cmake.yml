@@ -45,13 +45,15 @@ jobs:
       run: bin/parallel_test
 
     - name: GitHub Pages
-      # You may pin to the exact commit or the version.
-      # uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd
+      if: success()
       uses: crazy-max/ghaction-github-pages@v3.1.0
       with:
         # Git domain (default github.com)
-        domain: commander.com
+        # domain: commander.com
+        # Branch
+        target_branch: dev
         # Build directory to deploy
         build_dir: ${{github.workspace}}/build/doc/Parallel/html
+      env:
         # Token
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
