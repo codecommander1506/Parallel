@@ -53,7 +53,7 @@ jobs:
         # Branch
         target_branch: dev
         # Build directory to deploy
-        build_dir: ${{github.workspace}}/build/doc/Parallel/html
+        build_dir: build/doc/Parallel/html
       env:
         # Token
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
