@@ -52,4 +52,4 @@ jobs:
         # Git domain (default github.com)
         domain: commander.com
         # Build directory to deploy
-        build_dir: doc/Parallel/html
+        absolute_build_dir: ${{github.workspace}}/build/doc/Parallel/html
