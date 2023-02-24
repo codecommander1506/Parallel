@@ -45,7 +45,7 @@ jobs:
       run: bin/parallel_test
       
     - name: Copying documentation
-      run: cp ${{github.workspace}}/build/doc/Parallel/html/ .
+      run: cp -r ${{github.workspace}}/build/doc/Parallel/html/ .
 
     - name: GitHub Pages
       if: success()
