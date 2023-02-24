@@ -51,7 +51,7 @@ jobs:
         # Git domain (default github.com)
         # domain: commander.com
         # Branch
-        target_branch: dev
+        target_branch: doc
         # Build directory to deploy
         build_dir: build/doc/Parallel/html
       env:
